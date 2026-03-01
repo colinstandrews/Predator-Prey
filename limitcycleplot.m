@@ -1,5 +1,5 @@
 %I used the first figure as a demonstration of the shape of the limit cycle
-%reached at the end
+%reached at the end. This is for a figure in 'Adapted Models'
 clear; clc;
 a = 1;
 d = 0.2;

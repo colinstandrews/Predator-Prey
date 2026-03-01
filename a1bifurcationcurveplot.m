@@ -1,6 +1,6 @@
 %This is the plot I used to define where the Bifurcation line lies for a=1
 %and the stability of systems with varying b and d in such a system. Note I
-%moved the legend before including it in my work. 
+%moved the legend before including it in my work. This is for a figure in 'Adapted Models'
 clear; clc;
 dm = sqrt(1^2 + 4*1) - (1 + 1);
 

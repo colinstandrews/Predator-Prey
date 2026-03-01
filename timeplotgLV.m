@@ -1,4 +1,4 @@
-%This is how I graphed the time plot for the gLV
+%This is how I graphed the time plot for the gLV. This is for a figure in 'Adapted Models'
 
 [t,x]= ode45(@lv, [1 10], [1.9; 2.1])
 figure

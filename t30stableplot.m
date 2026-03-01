@@ -1,5 +1,6 @@
 %I used the second figure as a demonstration of what happens to the stable
 %system from time t=0 to time t=30. The other generated here I did not use.
+%This is for a figure in 'Adapted Models'
 clear; clc;
 a = 1;
 d = 0.2;

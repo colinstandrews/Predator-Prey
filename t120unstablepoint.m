@@ -1,5 +1,6 @@
 %I used the first figure as a demonstration of what happens to the unstable system
-%system from time t=0 to time t=120. The other figure generated here I did not use.
+%system from time t=0 to time t=120. The other figure generated here I did not use
+%not use. This is for a figure in 'Adapted Models'
 clear; clc;
 a = 1;
 d = 0.2;
