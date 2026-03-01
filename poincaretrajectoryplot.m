@@ -1,3 +1,5 @@
+%This is for the figure in 'Adapted Models' which shows my system will
+%converge to a limit cycle as per the Poincare-Bendixson theorem
 clear; clc; close all;
 a = 1; 
 b = 1; 
