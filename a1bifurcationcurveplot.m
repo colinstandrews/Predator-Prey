@@ -2,13 +2,13 @@
 %and the stability of systems with varying b and d in such a system. Note I
 %moved the legend before including it in my work. This is for a figure in 'Adapted Models'
 clear; clc;
-dm = sqrt(1^2 + 4*1) - (1 + 1);
+dm = sqrt(5) - (2);
 
 d = linspace(0, dm, 600);
 
-root = sqrt((1 - 1 - d).^2 + 4*d);
+root = sqrt((- d).^2 + 4*d);
 bcrit = ((1 - root) .* ...
-        (1 + 1 + d - root)) ./ (2*1);
+        (2 + d - root)) ./ (2);
 
 bmax = 1.2;
 

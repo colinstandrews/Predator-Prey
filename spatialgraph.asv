@@ -3,8 +3,8 @@ function spatialgraph
 
 m = 0;
 x = linspace(-40,40,40000);
-t = linspace(0,10,4);
-times = [0 10];
+t = linspace(0,50,2);
+times = [0 50];
 a = 0.1;
 
 sol1 = pdepe(m,@(x,t,u,DuDx)pdepredpreyable(x,t,u,DuDx,a),@icon,@bcon,x,t);
@@ -22,6 +22,8 @@ figure('Color','w');
 for k = 1:length(times)
 
     subplot(2,1,k)
+
+    % Smooth curves using spline interpolation
     xs = linspace(min(x),max(x),2000);
     us = interp1(x,u1(idx1(k),:),xs,'spline');
     vs = interp1(x,v1(idx1(k),:),xs,'spline');
